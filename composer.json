@@ -1,6 +1,6 @@
 {
     "name": "ra7/utils_path-normalize",
-    "description": "A utility for converting paths using the greater than sign as a directory separator to a valid path according to the directory separator for the current operating system.",
+    "description": "Utilities to convert paths using «\\», «/», or the greater than (>) sign as directory separators to a valid path according to the directory separator for the current operating system.",
     "type": "library",
     "keywords": [
         "directory-separator",

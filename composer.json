@@ -1,0 +1,47 @@
+{
+    "name": "ra7/utils_path-normalize",
+    "description": "A utility for converting paths using the greater than sign as a directory separator to a valid path according to the directory separator for the current operating system.",
+    "type": "library",
+    "keywords": [
+        "directory-separator",
+        "ds",
+        "path",
+        "normalize",
+        "replace",
+        "utilities",
+        "utils",
+        "helpers",
+        "functions",
+        "constants",
+        "ra7-ofl",
+        "ra7",
+        "Ruslan_A7"
+    ],
+    "homepage": "https://dev.iuid.cc/projects/utils/path-normalize",
+    "license": "proprietary",
+    "_comment": [
+        "License: RA7 Open Free License"
+    ],
+    "authors": [
+        {
+            "name": "Ruslan_A7 (RA7)",
+            "homepage": "https://ra7.iuid.cc",
+            "role": "Founder, Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "files": [
+            "src/ds.php",
+            "src/ds-normalize.php",
+            "src/path-normalize.php"
+        ],
+        "psr-4": {
+            "RA7\\Utils\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8"
+    }
+}

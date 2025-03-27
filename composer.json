@@ -36,10 +36,7 @@
             "src/ds.php",
             "src/ds-normalize.php",
             "src/path-normalize.php"
-        ],
-        "psr-4": {
-            "RA7\\Utils\\": "src/"
-        }
+        ]
     },
     "require": {
         "php": "^8"

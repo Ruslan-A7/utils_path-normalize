@@ -17,6 +17,7 @@ config/
 system/config/
 
 # Файли сторонніх програм середовища розробки
+*.code-workspace
 .vscode/
 .osp/
 

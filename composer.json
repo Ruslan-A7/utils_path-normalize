@@ -33,12 +33,12 @@
     "prefer-stable": true,
     "autoload": {
         "files": [
-            "src/ds.php",
             "src/ds-normalize.php",
             "src/path-normalize.php"
         ]
     },
     "require": {
-        "php": "^8"
+        "php": "^8",
+        "ra7/utils_system": "*"
     }
 }
